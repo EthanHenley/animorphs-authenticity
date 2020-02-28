@@ -1,2 +1,2 @@
-books/*.epub
+texts/*/*.epub
 .ipynb_checkpoints/
