@@ -1,3 +1,6 @@
 texts/*/*.epub
 .ipynb_checkpoints/
 *.vector
+code/__pycache__/
+data/results_svm - Copy.csv
+figures/svm_resultsBACKUP.png
