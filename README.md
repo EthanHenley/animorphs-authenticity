@@ -27,7 +27,7 @@ This project was completed as a part of General Assembly's Data Science Intensiv
 
 When authorship is uncertain, specific word choices and text patterns can be used to determine whether or not a text was written by a certain author. We want to develop a model for reading in two large corpuses, one authentically written by an author and one ghostwritten, and predicting which corpus a text belongs to. 
 
-One recent [paper](https://arxiv.org/abs/1911.05652) by Petr Plecháč analyzed the authorship of specific subsections of the play Henry VIII to determine where either of the authors suspected of involvement contributed. Its methodology is not directly applicable to non-poetic texts, as it greatly involves cadence and meter in its modeling process. We will to perform similar analysis on another, non-metered corpus to generalize author authenticity analysis.
+One recent [paper](https://arxiv.org/abs/1911.05652) by Petr Plecháč analyzed the authorship of specific subsections of the play Henry VIII to determine where either of the authors suspected of involvement contributed. Its methodology is not directly applicable to non-poetic texts, as it greatly involves cadence and meter in its modeling process. We will perform similar analysis on another, non-metered corpus to generalize author authenticity analysis.
 
 For this analysis, we will use the Animorphs series, 54 children's science-fiction/fantasy books of which about half were ghostwritten, as our corpus. The model will be specific to this collection of books, but the strategies implemented should be relevant for other authorship analyses. 
 
