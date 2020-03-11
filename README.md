@@ -79,6 +79,7 @@ Many experiments in stylometry use standard, historic corpuses such as 'great' n
 - The Animorphs Book Series by Applegate et al
 - [Richard's Animorphs Forum](https://animorphsforum.com/ebooks/)
 - [Animorphs on Wikipedia](https://en.wikipedia.org/wiki/Animorphs)
+- [EbookLib](https://pypi.org/project/EbookLib/)
 - [Relative contributions of Shakespeare and Fletcher in Henry VIII](https://arxiv.org/abs/1911.05652) by Plecháč
 - [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) by Mikolov et al
 - [FEMA Power Outage Hotspot Detection](https://github.com/boom-deva/FEMA-Power-Outage-Hotspot-Detection/blob/master/code/4_Preprocessing-and-NLP-Modeling.ipynb) by Devahastin Na Ayudhya et al
