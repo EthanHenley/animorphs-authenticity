@@ -3,9 +3,26 @@ A small module of functions applied across multiple notebooks in this
 authorship authenticity project.
 by Ethan Henley
 """
-
+import numpy as np
+import pandas as pd
 import re
 from nltk.corpus import stopwords
+from sklearn.model_selection import ParameterGrid
+
+#
+
+import numpy as np
+
+import pandas as pd
+
+from ast import literal_eval
+
+from sklearn.model_selection import ParameterGrid
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
+
+import matplotlib.pyplot as plt
+
 
 replace_punc_dict = {
     '<':' ANGLEPUNC ',
@@ -27,8 +44,47 @@ replace_punc_dict = {
     '—':' MDASHPUNC '
 }
 
-def sumtwo(a,b):
-    return a+b
+def do_gs(model, params, X, y): # do gridsearch
+    """
+    A function to do a manual gridsearch.
+    """
+    # adapted from David at https://stackoverflow.com/questions/34624978
+    best_score = -1
+    best_p = {}
+    
+    for p in ParameterGrid(params):
+        
+        model.set_params(**p)
+        model.fit(X,y)
+        
+        if model.score(X,y) > best_score:
+            best_score = model.score(X,y)
+            best_p = p
+            
+    model.set_params(**best_p)
+    model.fit(X,y)
+    
+    return model
+
+def col_acc(df, col):
+    """
+    A function to determine the accuracy of predictions stored in a column
+    against a column labeled authenticity.
+    """
+    return 1 - np.mean(
+        (df['authenticity']-df[col].map(lambda a:int(a>=.5))).map(lambda a:abs(int(a)))
+    )
+
+def inacc_set(df, col):
+    """
+    A function to determine the rows at which a column of predictions is inaccurate
+    against a column labeled authenticity.
+    """
+    return set(
+        df.loc[
+            df[col].map(lambda a:int(a>=.5)) != df['authenticity'], 
+            'book']
+    )
 
 def get_rpd():
     """
