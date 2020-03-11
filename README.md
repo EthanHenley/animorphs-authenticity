@@ -1,5 +1,6 @@
 # Animorphs Authorship Authenticity Analysis
 by Ethan Henley
+
 This project was completed as a part of General Assembly's Data Science Intensive.
 
 ---
@@ -75,4 +76,11 @@ Many experiments in stylometry use standard, historic corpuses such as 'great' n
 ---
 
 ## Sources
-- 
+- The Animorphs Book Series by Applegate et al
+- [Richard's Animorphs Forum](https://animorphsforum.com/ebooks/)
+- [Animorphs on Wikipedia](https://en.wikipedia.org/wiki/Animorphs)
+- [Relative contributions of Shakespeare and Fletcher in Henry VIII](https://arxiv.org/abs/1911.05652) by Plecháč
+- [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) by Mikolov et al
+- [FEMA Power Outage Hotspot Detection](https://github.com/boom-deva/FEMA-Power-Outage-Hotspot-Detection/blob/master/code/4_Preprocessing-and-NLP-Modeling.ipynb) by Devahastin Na Ayudhya et al
+- [Benchmarking Authorship Attribution Techniques](https://scholarworks.iupui.edu/handle/1805/15938) by Gungor
+- [Improving Distributional Similarity with Lessons Learned from Word Embeddings](https://www.aclweb.org/anthology/Q15-1016/) by Levy et al
