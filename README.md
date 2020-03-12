@@ -3,6 +3,8 @@ by Ethan Henley
 
 This project was completed as a part of General Assembly's Data Science Intensive.
 
+Accompanying presentation slides are available [here](https://docs.google.com/presentation/d/1BiTmmlA9NHCJK9DpghS24qIV3t3f4j6nthsajDjlGR0).
+
 ---
 
 ### Project Notebooks
