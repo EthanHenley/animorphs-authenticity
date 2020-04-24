@@ -5,6 +5,8 @@ This project was completed as a part of General Assembly's Data Science Intensiv
 
 Accompanying presentation slides are available [here](https://docs.google.com/presentation/d/1BiTmmlA9NHCJK9DpghS24qIV3t3f4j6nthsajDjlGR0).
 
+Check out [my blogpost](https://medium.com/@EthanHenley/authorship-authenticity-analysis-the-animorphs-series-66aef04fbf31) about this project.
+
 ---
 
 ### Project Notebooks
